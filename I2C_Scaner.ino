@@ -77,7 +77,7 @@ String addrToDevice(byte addr){
         case 0x40 : { return F("PCA9685 Servo, PWM driver"); }
         case 0x48 : { return F("ADS1115 ADC"); }
         case 0x50 : { return F("24C32 EEPROM"); }
-        case 0x57 : { return F("24C32 EEPROM"); }
+        case 0x57 : { return F("24C32 EEPROM, MAX30100 pulse, SpO sensor"); }
         case 0x68 : { return F("DS1307, DS3231 RTC"); }
         case 0x70 : { return F("PCA9685 Servo, PWM driver reset address"); }
         case 0x76 : { return F("BME280, BMP280 Temperature Pressure [Humidity] sensor"); }
